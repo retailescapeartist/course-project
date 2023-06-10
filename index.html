@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Simple Home Page Using JQuery Mobile</title>
+    <link rel="stylesheet" href="style/stylesheet.css">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
+    <link rel="stylesheet" href="themes/Module05_Course_Project_Themes.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.2.5.min.js"></script>
+
+
+</head>
+<body>
+<div id="page" data-role="page" data-theme="d" data-add-back-btn="true">
+    <div data-role="panel" id="myPanel">
+        <h2>Panel Header</h2>
+        <ul data-role="listview" data-theme="d">
+            <li class="menu"><a href="#">Suggestion Box</a></li>
+            <li class="menu"><a href="#">Food Recipes</a></li>
+            <li class="menu"><a href="#">What makes you smile?</a></li>
+            <li class="menu"><a href="#">Gaming News</a></li>
+            <li class="menu"><a href="#">Social Media</a></li>
+        </ul>
+        <p>You can close this panel by clicking outside of it, pressing the Esc key, or by swiping.</p>
+    </div>
+    <div class="container">
+        <div class="imageLogo" data-role="header">
+            <a href="#myPanel" class="ui-btn ui-btn-inline">Open Panel</a>
+            <img src="images/gaming.jpg" alt="gamingImage">
+        </div>
+        <div class="siteTitle">
+            <h1>A Few of My Favorite Things</h1>
+        </div>
+        <div class="pageHeading">
+            <h1>Home Page</h1>
+        </div>
+        <div class="mainNavigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#games">Favorite Games</a></li>
+                <li><a href="#movies">Favorite Movies</a></li>
+                <li><a href="#music">Favorite Music</a></li>
+                <li><a href="#yourFavorites">Your Favorites</a></li>
+            </ul>
+        </div>
+        <div class="img01">
+            <img src="images/controller.jpg" alt="img01">
+        </div>
+        <div class="img02">
+            <img src="images/skyrim.jpg" alt="img02">
+        </div>
+        <div class="img03">
+            <img src="images/mario3.png" alt="img03">
+        </div>
+        <div class="img04">
+            <img src="images/bindingofisaac.jpg" alt="img04">
+        </div>
+        <div class="heading">
+            <section>
+                <h3>A Few of My Favorite Things</h3>
+            </section>
+            <p>What is your favorite? I usually don't answer these questions because it is hard to pick from things. I'll do my best in here to list some of my preferred games, movies, and music. When I set out to make this list, I had to do a lot of thinking. I've played lots of games, watched lots of movies, and listened to lots of music.</p>
+            <p>For games, I will be going from past titles to current titles. I wanted to include some current selections that I've been playing recently, along with some classics that I remember when I was younger.
+                I haven't seen a great deal of newer movies, so those might not appear on my list. This category will feature older titles. For me, music is an interesting one. I like all sorts of genres, so it is hard for me to pick a few favorites.
+                This list will be like the gaming list, mixed with old and new. I've decided to keep each list to <span>my top 10</span> favorites, and why they are my favorites.</p>
+        </div>
+        <div class="sideContent">
+            <div data-role="content">
+                <ul data-role="listview" data-theme="d">
+                    <li><a href="#movies">Favorite Movies</a></li>
+                    <li><a href="#games">Favorite Games</a></li>
+                    <li><a href="#music">Favorite Music</a></li>
+                    <li><a href="#yourFavorites">Your Favorites</a></li>
+                    <li><a href="#suggestionBox">Suggestion Box or Leave A Message</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerContent">
+            <footer>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#games">Favorite Games</a></li>
+                    <li><a href="#movies">Favorite Movies</a></li>
+                    <li><a href="#music">Favorite Music</a></li>
+                </ul>
+                <h4>Daniel &copy 2023</h4>
+            </footer>
+        </div>
+    </div>
+</div>
+
+<div id="movies" data-role="page" data-theme="d" data-add-back-btn="true">
+    <div data-role="header" data-theme="d" data-add-back-btn="true">
+        <img src="images/MOVIES-5-13-2023.png" alt="">
+    </div>
+    <div data-role="grid" data-theme="d" data-add-back-btn="true">
+        <h1>Favorite Movies</h1>
+        <div class="ui-grid-a">
+            <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">My Best Friend is a Vampire</div></div>
+            <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Once Bitten</div></div>
+            <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Barry Gordy's The Last Dragon</div></div>
+            <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Dave Made a Maze</div></div>
+            <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Terrifier 2</div></div>
+            <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Mars Attacks</div></div>
+        </div>
+    </div>
+    <div data-role="footer" data-theme="d">
+        <h4>Daniel &copy; 2023</h4>
+    </div>
+</div>
+
+<div id="games" data-role="page" data-theme="d" data-add-back-btn="true">
+    <div data-role="header" data-theme="d" data-add-back-btn="true">
+        <img src="images/GAMES-5-13-2023.png" alt="">
+    </div>
+    <div data-role="grid" data-theme="d" data-add-back-btn="true">
+        <h1>Favorite Games</h1>
+        <div class="ui-grid-a">
+            <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">The Binding of Isaac</div></div>
+            <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Vampire Survivors</div></div>
+            <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Barn Finders</div></div>
+            <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Power Wash Simulator</div></div>
+            <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Above Snakes</div></div>
+            <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Halls of Torment</div></div>
+        </div>
+    </div>
+    <div data-role="footer" data-theme="d">
+        <h4>Daniel &copy; 2023</h4>
+    </div>
+</div>
+
+<div id="music" data-role="page" data-theme="d" data-add-back-btn="true">
+    <div data-role="header" data-theme="d" data-add-back-btn="true">
+        <img src="images/MUSIC-5-13-2023.png" alt="">
+    </div>
+    <div data-role="header" data-theme="d" data-add-back-btn="true">
+        <h1>My Favorite Songs</h1>
+    </div>
+    <div data-role="content">
+        Here's some of my favorite songs
+        </p>
+        <textarea class="localstorage" placeholder="Your Favorite Thing(s)." autofocus></textarea>
+        <button class="clear">Clear localStorage</button>
+        <button class="empty">Empty localStorage</button>
+    </div>
+    <div data-role="footer" data-theme="d">
+        <h4>Footer</h4>
+    </div>
+</div>
+
+<div data-role="page" id="yourFavorites" data-theme="d" data-add-back-btn="true">
+    <div data-role="header" data-theme="d" data-add-back-btn="true">
+        <h1>What are your favorite things?</h1>
+    </div>
+    <div data-role="content">
+        I've shared some favorite things, but was wondering what are your favorite things?
+        </p>
+        <textarea class="localstorage" placeholder="Your Favorite Thing(s)." autofocus></textarea>
+        <button class="clear">Clear localStorage</button>
+        <button class="empty">Empty localStorage</button>
+    </div>
+    <div data-role="footer" data-theme="d">
+        <h4>Footer</h4>
+    </div>
+</div>
+
+<div data-role="page" id="suggestionBox" data-theme="d" data-add-back-btn="true">
+    <div data-role="header" data-theme="d" data-add-back-btn="true">
+        <h1>The Message Center!</h1>
+    </div>
+    <div data-role="content">
+        <p>Feel free to fill out this form.</p>
+        <form id="messages">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            <br>
+            <label for="contact">Best time to contact:</label>
+            <input type="text" id="contact" name="contact">
+            <br>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div data-role="footer" data-theme="d" >
+        <h4>Daniel &copy; 2023</h4>
+    </div>
+</div>
+
+<div data-role="footer" data-theme="d">
+    <h4>Footer</h4>
+</div>
+</div>
+</body>
+</html>
+<script>
+    (function() {
+
+        var rasm = document.querySelector('.localstorage');
+
+        function supportsLocalStorage() {
+            return typeof(Storage)!== 'undefined';
+        }
+
+        if (!supportsLocalStorage()) {
+            rasm.value = 'Your browser does not support localStorage.';
+        } else {
+            try {
+                setInterval(function() {
+                    localStorage.setItem('autosave', rasm.value);
+                }, 1000);
+            } catch (e) {
+                if (e == QUOTA_EXCEEDED_ERR) {
+                    alert('Quota exceeded!');
+                }
+            }
+            if (localStorage.getItem('autosave')) {
+                rasm.value = localStorage.getItem('autosave');
+            }
+            document.querySelector('.clear').onclick = function() {
+                rasm.value = '';
+                localStorage.removeItem('autosave');
+            };
+            document.querySelector('.empty').onclick = function() {
+                rasm.value = '';
+                localStorage.clear();
+            };
+        }
+
+    })();
+</script>
+
+<!-- Now, you should add new pages with lists, at least 1 form, and web storage functionality to your application. Your new pages must include:
+switched list to grids for all but the music section. I added a side panel for more outside categories. 
+-->
